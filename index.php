@@ -7,11 +7,16 @@
     <title>Form</title>
 </head>
 <body>
-    <form name = "" action="">
+    <?php require_once 'insert.php'     ?>
+    <form name = "" action="" method = "post">
         <label>Name:</label><input type="text" name = "name">
+        <br>
         <label>Email:</label><input type="email" name = "email">
+        <br>
         <label>Age:</label><input type="text" name = "age">
+        <br>
         <label>Address:</label><input type="text" name = "address">
+        <br> 
         <input type="submit" value="Submit" name = "submit">
     </form>
 </body>
